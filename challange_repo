@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define your GitHub username, personal access token, and new repository name
-GITHUB_USERNAME="Avularamesh"
-GITHUB_TOKEN="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"
-REPO_NAME="Chalange_repo"
+GITHUB_USERNAME="give github username"
+GITHUB_TOKEN="here give Token"
+REPO_NAME="give your repo new repo name"
 
 # Create the repository using the GitHub API
 curl -u "$GITHUB_USERNAME:$GITHUB_TOKEN" https://api.github.com/user/repos -d "{\"name\":\"$REPO_NAME\", \"auto_init\": true}"
